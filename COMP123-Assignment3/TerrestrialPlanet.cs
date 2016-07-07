@@ -5,9 +5,9 @@ using System.Text;
         /*
          * Author: Joanne (Hyunjung) Jung
          * Student # : 300432364
-         * Date Modified: July 6th, 2016
+         * Date Modified: July 7th, 2016
          * Description: TerrestrialPlanet class for Assignment 3
-         * Version: 0.0.1 - Initial commit
+         * Version: 0.0.2 - Added private instance variables, public methods and constructors to classes
          */
 namespace COMP123_Assignment3
 {
@@ -16,18 +16,33 @@ namespace COMP123_Assignment3
         private bool _oxygen;
 
         public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen)
+            :base(name, diameter, mass)
         {
-            throw new System.NotImplementedException();
+            this._oxygen = oxygen;
         }
 
         public bool Habitable()
         {
-            throw new System.NotImplementedException();
+            if (_oxygen == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
-        public bool HassMoons()
+        public bool HasMoons()
         {
-            throw new System.NotImplementedException();
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

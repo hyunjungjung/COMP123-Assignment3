@@ -5,9 +5,9 @@ using System.Text;
         /*
          * Author: Joanne (Hyunjung) Jung
          * Student # : 300432364
-         * Date Modified: July 6th, 2016
+         * Date Modified: July 7th, 2016
          * Description: Planet class for Assignment 3
-         * Version: 0.0.1 - Initial commit
+         * Version: 0.0.2 - Added private instance variables, public methods and constructors to classes
          */
 namespace COMP123_Assignment3
 {
