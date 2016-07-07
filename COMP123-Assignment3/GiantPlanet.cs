@@ -7,7 +7,8 @@ using System.Text;
          * Student # : 300432364
          * Date Modified: July 7th, 2016
          * Description: GiantPlanet class for Assignment 3
-         * Version: 0.0.2 - Added private instance variables, public methods and constructors to classes
+         * Version: 0.0.3 - Implemented GiantPlanet and TerrestrialPlanet to create giantPlanet and terristrialPlanet object
+         * and WaitForAnyKey method in Main Method
          */
 namespace COMP123_Assignment3
 {

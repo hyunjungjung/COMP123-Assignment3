@@ -7,7 +7,8 @@ using System.Text;
          * Student # : 300432364
          * Date Modified: July 7th, 2016
          * Description: Planet class for Assignment 3
-         * Version: 0.0.2 - Added private instance variables, public methods and constructors to classes
+         * Version: 0.0.3 - Implemented GiantPlanet and TerrestrialPlanet to create giantPlanet and terristrialPlanet object
+         * and WaitForAnyKey method in Main Method
          */
 namespace COMP123_Assignment3
 {
@@ -139,7 +140,7 @@ namespace COMP123_Assignment3
          */ 
         public override string ToString()
         {
-            return string.Format("Name : {0}\n  Diameter : {1}\n    Mass : {2}\n", this.Name, this.Diameter, this.Mass);
+            return string.Format("Name : {0}\nDiameter : {1:E2} km\nMass : {2:E2} kg\n", this.Name, this.Diameter, this.Mass);
 
         }
     }

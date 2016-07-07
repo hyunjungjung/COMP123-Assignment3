@@ -8,7 +8,8 @@ using System.Threading.Tasks;
          * Student # : 300432364
          * Date Modified: July 7th, 2016
          * Description: Main method for driver class Program for Assignment 3
-         * Version: 0.0.2 - Added private instance variables, public methods and constructors to classes
+         * Version: 0.0.3 - Implemented GiantPlanet and TerrestrialPlanet to create giantPlanet and terristrialPlanet object
+         * and WaitForAnyKey method in Main Method
          */
 namespace COMP123_Assignment3
 {
@@ -16,11 +17,22 @@ namespace COMP123_Assignment3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("         Giant Planet");
+            Console.WriteLine("==============================");
+            GiantPlanet giantPlanet = new GiantPlanet("Jupiter", 1654879513, 9587411541, "Gas");
+            Console.WriteLine(giantPlanet.ToString());
+            
+            Console.WriteLine("     Terrestrial Planet");
+            Console.WriteLine("==============================");
+            TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("Earth", 654654, 981541, true);
+            Console.WriteLine(terrestrialPlanet.ToString());
+            waitForAnyKey();
         }
 
-        public void waitForAnyKey()
+        public static void waitForAnyKey()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Please enter any key to continue.");
+            Console.ReadKey();
         }
     }
 }
