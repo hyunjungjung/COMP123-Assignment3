@@ -7,8 +7,7 @@ using System.Text;
          * Student # : 300432364
          * Date Modified: July 7th, 2016
          * Description: TerrestrialPlanet class for Assignment 3
-         * Version: 0.0.3 - Implemented GiantPlanet and TerrestrialPlanet to create giantPlanet and terristrialPlanet object
-         * and WaitForAnyKey method in Main Method
+         * Version: 0.0.4 - Final commit
          */
 namespace COMP123_Assignment3
 {

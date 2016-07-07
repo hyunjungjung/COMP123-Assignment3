@@ -8,8 +8,7 @@ using System.Threading.Tasks;
          * Student # : 300432364
          * Date Modified: July 7th, 2016
          * Description: Main method for driver class Program for Assignment 3
-         * Version: 0.0.3 - Implemented GiantPlanet and TerrestrialPlanet to create giantPlanet and terristrialPlanet object
-         * and WaitForAnyKey method in Main Method
+         * Version: 0.0.4 - Final commit
          */
 namespace COMP123_Assignment3
 {
