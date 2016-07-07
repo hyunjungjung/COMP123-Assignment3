@@ -2,23 +2,30 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
         /*
          * Author: Joanne (Hyunjung) Jung
          * Student # : 300432364
          * Date Modified: July 6th, 2016
-         * Description: Main method for driver class Program for Assignment 3
+         * Description: GiantPlanet class for Assignment 3
          * Version: 0.0.1 - Initial commit
          */
 namespace COMP123_Assignment3
 {
-    class Program
+    public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
-        static void Main(string[] args)
-        {
+        private string _type;
+
+        public GiantPlanet(string name, double diameter, double mass, string type) 
+            :base(name, diameter, mass )
+
         }
 
-        public void waitForAnyKey()
+        public bool HasMoons()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool HasRings()
         {
             throw new System.NotImplementedException();
         }
